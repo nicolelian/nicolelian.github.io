@@ -1,0 +1,91 @@
+body {
+    background-color: navajowhite;
+    background-image: url("F1010017.JPG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 5px 5px 2px grey;
+    text-align: center;
+    padding: 140px;
+}
+.avatar{
+    width:100%;
+}
+
+.red_box{
+    background-color: red;
+    border: 5px red solid;
+    border-radius:0px;
+    width: 100px;
+    height: 100px;
+    transition-property: border-radius, background-color;
+    transition-duration: 700ms;
+    transition-timing-function: linear;
+}
+
+.red_box:hover {
+    background-color: blue;
+    border: 5px darkblue dotted;
+    border-radius: 150px;
+}
+
+
+.blue_box{
+    
+    width: 100px;
+    height: 100px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2:hover{
+    text-shadow: 5px 5px 2px grey;
+}
+
+
+.riseup{
+    font-size: 2em;
+    transition-property: text-shadow;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+
+.riseup:hover{
+    text-shadow: 5px 5px 2px grey;
+}
+
+.menuitem{
+    display: inline;
+    background-color: lightgray;
+    font-size: 50px;
+    padding: 20px;
+    padding-top: 5px;
+    border-style: dotted;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: 0px solid blue;
+    transition-duration: 100ms;
+    opacity: 0.5;
+    transition-property: border-bottom,opacity;
+    transition-timing-function: linear;
+}
+
+.menuitem:hover{
+    border-bottom: 5px solid blue;
+    opacity: 1;
+}
